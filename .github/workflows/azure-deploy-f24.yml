@@ -48,7 +48,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'nodebb-team-blue.azurewebsites.net'
+          app-name: 'nodebb-team-blue'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F75BA69360EC4458AAB6FE3D51F45C78 }}
           package: .
